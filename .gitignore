@@ -1,0 +1,12 @@
+# To ignore executable files:
+# Ignore all, then unignore all with extensions and all dirs
+*
+!*.*
+!*/
+
+# Ignore other kinds of binary files
+*.o
+*.ali
+
+# Ignore backup files
+*~
